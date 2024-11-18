@@ -1,0 +1,23 @@
+#                                #
+# LAYERED ARCHITECTURE ENDPOINTS #
+#                                #
+
+### Get product by id (layer)
+GET http://localhost:8080/layer/products/camiseta-1234
+
+### Get product by id (layer)
+GET http://localhost:8080/layer/products/pantalon-111
+
+
+#                                  #
+# HEXAGONAL ARCHITECTURE ENDPOINTS #
+#                                  #
+
+### Get product by id (hexagonal)
+GET http://localhost:8080/hexagonal/products/camiseta-1234
+
+### Get product by id (hexagonal)
+GET http://localhost:8080/hexagonal/products/pantalon-111
+
+### Get product by id (hexagonal)
+GET http://localhost:8080/hexagonal2/products/camiseta-1234
